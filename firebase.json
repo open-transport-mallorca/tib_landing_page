@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "build/web",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -10,6 +11,30 @@
       {
         "source": "**",
         "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.wasm",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/wasm"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cross-Origin-Embedder-Policy",
+            "value": "credentialless"
+          },
+          {
+            "key": "Cross-Origin-Opener-Policy",
+            "value": "same-origin"
+          }
+        ]
       }
     ]
   }

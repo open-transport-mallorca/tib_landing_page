@@ -1,2 +1,3 @@
-# tib_landing_page
- The landing page for the TIB app.
+# TIB Landing Page
+
+The landing page to the TIB App.

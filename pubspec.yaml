@@ -1,0 +1,30 @@
+name: guessit_landing
+description: The landing page for Guess It game.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  animated_text_kit: ^4.2.2
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  mesh_gradient: ^1.3.6
+  rainbow_color: ^2.0.1
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: montserrat
+      fonts:
+        - asset: assets/Montserrat-VariableFont_wght.ttf

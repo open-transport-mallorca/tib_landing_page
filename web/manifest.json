@@ -1,0 +1,10 @@
+{
+  "name": "Guess It!",
+  "short_name": "Guess It",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "A multiplayer guessing game",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.codeclickers.guessit",
+      "sha256_cert_fingerprints": [
+        "C2:96:B8:5B:0C:CE:7B:51:D0:31:03:41:21:06:2F:C7:FB:69:23:7A:E3:C4:D8:4B:FC:02:15:A1:BF:13:A5:21"
+      ]
+    }
+  }
+]

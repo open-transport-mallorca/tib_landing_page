@@ -178,7 +178,7 @@ class _LandingPageState extends State<LandingPage> with TickerProviderStateMixin
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Image.asset("logo.png", height: 150),
+              Image.asset("assets/logo.png", height: 150),
               const SizedBox(height: 12),
               AnimatedBuilder(
                 animation: _textAnimationController,
